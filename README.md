@@ -1,7 +1,7 @@
 # Agent Based Products Market Simulator by Scala 
 
 ## Introduction
-In this programs, I propose a simulator in the products market. Several companies and lots of customers create as Objects. The companies develop virtual prodcts. In case of fitting customers' needs, they buy its products int the market.
+In this programs, I propose a simulator in the products market. Several companies and lots of customers are created as Objects. The companies develop virtual prodcts. In case of fitting customers' needs, they buy its products int the market.
 Finally, this programs output companies benfits and the numbers of customers bought products.
 
 ## Installation
