@@ -11,7 +11,7 @@ This programs use "sbt" and execute like this :
 > sbt compile 
 > run
 ```
-## OUTPUTS
+## Outputs
 CompanyId and Benefits and CustomerNumber are outputed.  
 
 ```
