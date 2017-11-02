@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>agent-based-analysis-of-inovation-in-artificial-products-market</groupId>
-    <artifactId>agent-based-analysis-of-inovation-in-artificial-products-market_2.12</artifactId>
+    <groupId>jp.jirotubuyaki</groupId>
+    <artifactId>agent-based-products-market-simulator</artifactId>
     <packaging>jar</packaging>
-    <description>Agent-Based Analysis of Inovation in Artificial Products Market</description>
+    <description>In this programs, I propose a simulator in the products market. Several companies and lots of customers are created as Objects. The companies develop virtual prodcts. In case of fitting customers' needs, they buy its products int the market. Finally, this programs output companies benfits and the numbers of customers bought products.</description>
     <version>1.0</version>
     <name>Agent-Based Analysis of Inovation in Artificial Products Market</name>
     <organization>
-        <name>agent-based-analysis-of-inovation-in-artificial-products-market</name>
+        <name>Okada Algorithm Private Invention Research Laboratory</name>
     </organization>
     <dependencies>
         <dependency>

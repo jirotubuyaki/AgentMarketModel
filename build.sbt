@@ -26,3 +26,5 @@ resolvers ++= Seq(
 scalaVersion := "2.12.1"
 
 retrieveManaged := true
+
+makePomConfiguration := makePomConfiguration.value.copy(file = new File("pom.xml"))
