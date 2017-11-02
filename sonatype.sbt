@@ -5,6 +5,7 @@ sonatypeProfileName := "com.github.jirotubuyaki"
 publishMavenStyle := true
 
 // License of your choice
+organization := "com.github.jirotubuyaki"
 licenses := Seq("APL2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 homepage := Some(url("https://jirotubuyaki.github.io/"))
 scmInfo := Some(
