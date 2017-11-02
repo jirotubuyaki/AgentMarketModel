@@ -1,34 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.jirotubuyaki</groupId>
-    <artifactId>agent-based-products-market-simulator</artifactId>
+    <groupId>agent-based-analysis-of-inovation-in-artificial-products-market</groupId>
+    <artifactId>agent-based-analysis-of-inovation-in-artificial-products-market_2.12</artifactId>
     <packaging>jar</packaging>
-    <description>In this programs, I propose a simulator in the products market. Several companies and lots of customers are created as Objects. The companies develop virtual prodcts. In case of fitting customers' needs, they buy its products int the market. Finally, this programs output companies benfits and the numbers of customers bought products.</description>
+    <description>Agent-Based Analysis of Inovation in Artificial Products Market</description>
+    <url>https://jirotubuyaki.github.io/</url>
     <version>1.0</version>
+    <licenses>
+        <license>
+            <name>APL2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
     <name>Agent-Based Analysis of Inovation in Artificial Products Market</name>
     <organization>
-        <name>Okada Algorithm Private Invention Research Laboratory</name>
+        <name>agent-based-analysis-of-inovation-in-artificial-products-market</name>
+        <url>https://jirotubuyaki.github.io/</url>
     </organization>
-    <developers>
-       <developer>
-         <name>Masashi OKADA</name>
-         <email>okadaalgorithm@gmail.com</email>
-         <organization>Okada Algorithm Private Invention Research Laboratory</organization>
-         <organizationUrl>https://jirotubuyaki.github.io/</organizationUrl>
-       </developer>
-    </developers>
-    <licenses>
-      <license>
-        <name>MIT License</name>
-        <url>http://www.opensource.org/licenses/mit-license.php</url>
-      </license>
-    </licenses>
     <scm>
-  		<url>https://github.com/jirotubuyaki/AgentMarketModel</url>
-  		<connection>scm:git:git://github.com/jirotubuyaki/AgentMarketModel.git</connection>
-  		<developerConnection>scm:git:git@github.com:jirotubuyaki/AgentMarketModel.git</developerConnection>
-  	</scm>
+        <url>https://github.com/jirotubuyaki/AgentMarketModel</url>
+        <connection>scm:git@github.com:jirotubuyaki/AgentMarketModel.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>1</id>
+            <name>Masashi OKADA</name>
+            <email>okadaalgorithm@gmail.com</email>
+            <url>https://jirotubuyaki.github.io/</url>
+        </developer>
+    </developers>
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
@@ -38,37 +40,17 @@
         <dependency>
             <groupId>org.scalanlp</groupId>
             <artifactId>breeze_2.12</artifactId>
-            <version>latest.integration</version>
+            <version>0.13.2</version>
         </dependency>
         <dependency>
             <groupId>org.scalanlp</groupId>
             <artifactId>breeze-natives_2.12</artifactId>
-            <version>0.13</version>
+            <version>0.13.2</version>
         </dependency>
         <dependency>
             <groupId>org.scalanlp</groupId>
             <artifactId>breeze-viz_2.12</artifactId>
-            <version>0.13</version>
+            <version>0.13.2</version>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>typesafereleases</id>
-            <name>typesafe-releases</name>
-            <url>http://repo.typesafe.com/typesafe/releases/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>SonatypeSnapshots</id>
-            <name>Sonatype Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>SonatypeReleases</id>
-            <name>Sonatype Releases</name>
-            <url>https://oss.sonatype.org/content/repositories/releases/</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
 </project>
