@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>agent-based-analysis-of-inovation-in-artificial-products-market</groupId>
+    <artifactId>agent-based-analysis-of-inovation-in-artificial-products-market_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>Agent-Based Analysis of Inovation in Artificial Products Market</description>
+    <version>1.0</version>
+    <name>Agent-Based Analysis of Inovation in Artificial Products Market</name>
+    <organization>
+        <name>agent-based-analysis-of-inovation-in-artificial-products-market</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalanlp</groupId>
+            <artifactId>breeze_2.12</artifactId>
+            <version>latest.integration</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalanlp</groupId>
+            <artifactId>breeze-natives_2.12</artifactId>
+            <version>0.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalanlp</groupId>
+            <artifactId>breeze-viz_2.12</artifactId>
+            <version>0.13</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>typesafereleases</id>
+            <name>typesafe-releases</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>SonatypeSnapshots</id>
+            <name>Sonatype Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>SonatypeReleases</id>
+            <name>Sonatype Releases</name>
+            <url>https://oss.sonatype.org/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
