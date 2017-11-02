@@ -24,6 +24,11 @@
         <url>http://www.opensource.org/licenses/mit-license.php</url>
       </license>
     </licenses>
+    <scm>
+  		<url>https://github.com/jirotubuyaki/AgentMarketModel</url>
+  		<connection>scm:git:git://github.com/jirotubuyaki/AgentMarketModel.git</connection>
+  		<developerConnection>scm:git:git@github.com:jirotubuyaki/AgentMarketModel.git</developerConnection>
+  	</scm>
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
