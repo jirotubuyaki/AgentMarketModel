@@ -1,10 +1,10 @@
-package jp.jirotubuyaki.main.scala.Customer
+package com.github.jirotubuyaki.main.scala.Customer
 
-import jp.jirotubuyaki.main.scala.Market._
-import jp.jirotubuyaki.main.scala.Company._
-import jp.jirotubuyaki.main.scala.Product._
-import jp.jirotubuyaki.main.scala.Customer._
-import jp.jirotubuyaki.main.scala.Need._
+import com.github.jirotubuyaki.main.scala.Market._
+import com.github.jirotubuyaki.main.scala.Company._
+import com.github.jirotubuyaki.main.scala.Product._
+import com.github.jirotubuyaki.main.scala.Customer._
+import com.github.jirotubuyaki.main.scala.Need._
 import java.io._
 import scala.io._
 import scala.math._
