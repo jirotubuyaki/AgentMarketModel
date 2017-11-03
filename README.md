@@ -1,5 +1,6 @@
 # Agent Based Products Market Simulator by Scala 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.jirotubuyaki/agent-based-analysis-of-inovation-in-artificial-products-market_2.12/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.jirotubuyaki/agent-based-analysis-of-inovation-in-artificial-products-market_2.12)
+[![Scaladoc](http://javadoc-badge.appspot.com/com.github.jirotubuyaki/agent-based-analysis-of-inovation-in-artificial-products-market_2.12.svg?label=scaladoc)](http://javadoc-badge.appspot.com/com.github.jirotubuyaki/agent-based-analysis-of-inovation-in-artificial-products-market_2.12)
 ## Introduction
 In this programs, I propose a simulator in the products market. Several companies and lots of customers are created as Objects. The companies develop virtual prodcts. In case of fitting customers' needs, they buy its products int the market.
 Finally, this programs output companies benfits and the numbers of customers bought products.
